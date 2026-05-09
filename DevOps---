@@ -1,0 +1,74 @@
+7 Cs of DevOps 
+
+The 7 Cs of DevOps are core principles that help make DevOps successful. They guide how teams work together, build, test, and deliver software faster and more reliably. Each of these Cs contributes to a workflow that enhances the quality, speed, and reliability of delivering software products:
+
+    Continuous Development
+    Continuous Integration
+    Continuous Testing
+    Continuous Deployment/Continuous Delivery
+    Continuous Monitoring
+    Continuous Feedback
+    Continuous Operations
+
+DevOps-Lifecycle
+1. Continuous Development
+
+This stage focuses on the iterative planning and coding of software in small, manageable units. It allows for rapid updates and early bug detection.
+
+    Focus: Version control and incremental coding.
+    Example: A developer builds a "Login" feature on Monday and "Search" on Tuesday, rather than waiting weeks to finish the entire app.
+
+1
+2. Continuous Integration (CI)
+
+CI automates the process of merging code changes into a central repository. It includes automated building, quality checks, and storage.
+
+    Tools: Jenkins, GitHub, Maven, SonarQube.
+    Example: When Meena pushes code to GitHub, Jenkins automatically builds it and checks for bugs. If it passes, a "ready-to-use" file is saved.
+
+6
+3. Continuous Testing
+
+Automated tests are executed every time the code changes. This ensures that new features don't break existing functionality.
+
+    Tools: Selenium, Testsigma, JUnit.
+    Example: After adding a "Coupon" feature, automated scripts immediately test if the discount applies correctly and if the checkout still works.
+
+5
+4. Continuous Deployment & Delivery
+
+These processes bridge the gap between development and the live environment.
+
+    Delivery: Code is always in a "ready-to-deploy" state but requires a manual click to go live.
+
+continuous-delivery-2
+
+    Deployment: Every change that passes testing is automatically pushed to users without human intervention.
+
+continuous-delivery-1
+
+    Example: A "Refer & Earn" feature sits in a staging area until the marketing team chooses to launch it (Delivery).
+
+5. Continuous Monitoring
+
+Teams track the health and performance of the application in real-time to catch issues before they cause a crash.
+three_pillars_of_monitoring
+
+    Tools: Prometheus, Grafana.
+    Example: If the app slows down during dinner rush, Prometheus alerts the team, and Grafana shows exactly which server is struggling.
+
+6. Continuous Feedback
+
+This involves collecting and analyzing data from end-users to improve the product. It creates a loop between the user and the developer.
+
+    Focus: App reviews, error reports, and user surveys.
+    Example: Users report that map tracking is laggy; the team analyzes this feedback and prioritizes a fix for the next update.
+
+7. Continuous Operations
+
+The goal is to eliminate downtime. Maintenance and updates are performed in a way that the application remains available to users at all times.
+
+    Focus: High availability and uptime.
+    Example: Updating the payment gateway in the background while users continue to order food without noticing any service interruption.
+
+
